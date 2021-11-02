@@ -29,4 +29,8 @@ class Movie {
     public function getReleaseYear() {
         return $this->releaseYear;
     }
+
+    public function getGenre() {
+        return $this->genre;
+    }
 }
