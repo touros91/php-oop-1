@@ -26,11 +26,23 @@ class Movie {
         return $this->title;
     }
 
-    public function getReleaseYear() {
-        return $this->releaseYear;
+    public function getDirector() {
+        return $this->director;
     }
 
     public function getGenre() {
         return $this->genre;
+    }
+
+    public function getDuration() {
+        return $this->duration;
+    }
+
+    public function getVote() {
+        return $this->vote;
+    }
+
+    public function getReleaseYear() {
+        return $this->releaseYear;
     }
 }
